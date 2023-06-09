@@ -1,0 +1,8 @@
+.udata td {
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+
+.udata tr td:nth-child(1) {
+    text-align: right;
+}

@@ -1,0 +1,98 @@
+h1 {
+    font-size: 18pt;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+section {
+    border: 2px solid black;
+    padding: 5px;
+    margin: 10px 0;
+}
+
+@media (max-width: 60em) {
+    section {
+        border-left: none;
+        border-right: none;
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+    }
+}
+
+section > h4 {
+    text-decoration: underline;
+    font-size: 17pt;
+    margin-bottom: 10px;
+}
+
+section > h5 {
+    text-decoration: underline;
+    font-size: 14pt;
+    margin: 5px 0;
+}
+
+textarea {
+    resize: vertical;
+    width: 99%;
+    max-height: 200px;
+    min-height: 50px;
+}
+
+/* Registration Form */
+
+div.dform {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+div.dinput, div.derrors {
+    margin: 5px auto;
+    width: 250px;
+}
+
+div.derrors {
+    color: crimson;
+    font-style: italic;
+    width: 350px;
+    text-align: justify;
+}
+
+div.derrors p {
+    margin-bottom: 5px;
+}
+
+div.dform input {
+    margin-bottom: 10px;
+}
+
+.button {
+    display: block;
+    border: 2px solid black;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    background-color: skyblue;
+}
+
+.button:hover {
+    background-color: lightblue;
+}
+
+.submit {
+    display: block;
+    margin: 5px auto;
+    width: 150px;
+}
+
+div.dinput > * {
+    display: block;
+    width: 250px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.italic {
+    font-style: italic;
+}

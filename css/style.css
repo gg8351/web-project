@@ -1,0 +1,79 @@
+main,nav {
+    font-family: sans-serif;
+    max-width: 60em;
+    margin: 0 auto;
+}
+
+nav {
+    user-select: none;
+    border-bottom: 2px solid black;
+    padding: 5px;
+}
+
+nav > a {
+    text-decoration: none;
+}
+
+@media (min-width: 60em) {
+    main,nav {
+        max-width: 60em;
+        width: auto;
+    }    
+}
+
+main {
+    margin-top: 30px;
+    margin-bottom: 200px;
+}
+
+.mandatory {
+    color: red;
+}
+
+/* Events */
+
+.event {
+    border: 1px solid grey;
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.novis {
+    display: none;
+}
+
+.dateHl {
+    background-color: cyan;
+    font-weight: bold;
+    padding: 0 2px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.profileTile {
+    width: 200px;
+    text-align: center;
+}
+
+.imgwrap {
+    text-align: center;
+}
+
+.profileTile img {
+    text-align: center;
+    max-height: 150px;
+    max-width: 150px;
+}
+
+.centeredBlock {
+    margin: 0 auto;
+}
+
+.commentHl {
+    background-color: lightgreen;
+}
